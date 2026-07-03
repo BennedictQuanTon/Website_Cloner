@@ -83,10 +83,12 @@ export default function Exceptionalities() {
                 {/* If card has a badge icon (like Flexibility) */}
                 {item.badgeIcon && (
                   <div className="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center">
-                    <img
+                    <Image
                       src={item.badgeIcon}
                       alt="Badge Icon"
-                      className="w-5 h-5 object-contain"
+                      width={20}
+                      height={20}
+                      className="object-contain"
                     />
                   </div>
                 )}
